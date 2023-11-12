@@ -1,0 +1,93 @@
+baseURL: "https://segaviv.github.io/" 
+title: Aviv Segall
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: papers/
+          weight: 1
+        - name: Contact
+          url: contact/
+          weight: 2
+
+params:
+    description: "I am a PhD student in the [interactive geometry lab](https://igl.ethz.ch/), supervised by [Prof. Olga Sorkine-Hornung](https://igl.ethz.ch/people/sorkine/).
+          My academic research interests include geometry processing, physics simulation and computer graphics."
+    author: Aviv Segall
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Aviv Segall
+          subtitle: "I am a PhD student in the [interactive geometry lab](https://igl.ethz.ch/), supervised by [Prof. Olga Sorkine-Hornung](https://igl.ethz.ch/people/sorkine/).
+          \n\n
+          My academic research interests include geometry processing, physics simulation and computer graphics. Playing with pretty math and occasionally finding a use for it is my jam.
+          \n\n
+          "
+          imageUrl: "profile_photo.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Aviv Segall
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: Contact
+              url: contact/
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:aviv.segall@inf.ethz.ch
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=KEjTYUIAAAAJ
+        - name: GitHub
+          url: https://github.com/segaviv
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Aviv Segall"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

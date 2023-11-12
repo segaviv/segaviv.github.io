@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://segaviv.github.io/sitemap.xml

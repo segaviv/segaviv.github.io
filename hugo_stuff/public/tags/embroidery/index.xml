@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Embroidery on Aviv Segall</title>
+    <link>https://segaviv.github.io/tags/embroidery/</link>
+    <description>Recent content in Embroidery on Aviv Segall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/embroidery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital 3D Smocking Design</title>
+      <link>https://segaviv.github.io/papers/paper4/</link>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/paper4/</guid>
+      <description>The paper presents a method for digitally previewing a smocking pattern design by formulating smocking as a graph embedding and shape deformation problem.</description>
+    </item>
+    
+  </channel>
+</rss>

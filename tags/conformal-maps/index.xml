@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conformal maps on Aviv Segall</title>
+    <link>https://segaviv.github.io/tags/conformal-maps/</link>
+    <description>Recent content in Conformal maps on Aviv Segall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/conformal-maps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iterative closest conformal maps between planar domains</title>
+      <link>https://segaviv.github.io/papers/paper3/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/paper3/</guid>
+      <description>The paper introduces an alternating minimization algorithm utilizing the Cauchy-Green complex coordinates to efficiently compute a conformal map between planar domains with initial global alignment.</description>
+    </item>
+    
+  </channel>
+</rss>
