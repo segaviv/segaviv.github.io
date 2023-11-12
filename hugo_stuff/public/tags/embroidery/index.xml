@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/embroidery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital 3D Smocking Design</title>
-      <link>https://segaviv.github.io/papers/paper4/</link>
+      <link>https://segaviv.github.io/papers/smocking/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://segaviv.github.io/papers/paper4/</guid>
+      <guid>https://segaviv.github.io/papers/smocking/</guid>
       <description>The paper presents a method for digitally previewing a smocking pattern design by formulating smocking as a graph embedding and shape deformation problem.</description>
     </item>
     

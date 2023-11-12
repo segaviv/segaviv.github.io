@@ -9,19 +9,19 @@
     <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/cauchy-green-coordinates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iterative closest conformal maps between planar domains</title>
-      <link>https://segaviv.github.io/papers/paper3/</link>
+      <link>https://segaviv.github.io/papers/iccm/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://segaviv.github.io/papers/paper3/</guid>
+      <guid>https://segaviv.github.io/papers/iccm/</guid>
       <description>The paper introduces an alternating minimization algorithm utilizing the Cauchy-Green complex coordinates to efficiently compute a conformal map between planar domains with initial global alignment.</description>
     </item>
     
     <item>
       <title>Hele-shaw flow simulation with interactive control using complex barycentric coordinates</title>
-      <link>https://segaviv.github.io/papers/paper2/</link>
+      <link>https://segaviv.github.io/papers/hele_shaw/</link>
       <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://segaviv.github.io/papers/paper2/</guid>
+      <guid>https://segaviv.github.io/papers/hele_shaw/</guid>
       <description>The paper explores Hele-Shaw flow, a slow viscous liquid flow between parallel plates, proposing an efficient simulation method using a complex-variable formulation of generalized barycentric coordinates, enabling interactive user control and extending applicability to the exterior domain for simulating two-phase flow and diverse patterns.</description>
     </item>
     

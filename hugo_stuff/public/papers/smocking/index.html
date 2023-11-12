@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Digital 3D Smocking Design | Aviv Segall</title>
+<meta name="keywords" content="Smocking, Embroidery, Shape Deformation, Graph Embedding">
+<meta name="description" content="The paper presents a method for digitally previewing a smocking pattern design by formulating smocking as a graph embedding and shape deformation problem.">
+<meta name="author" content="Jing Ren,&thinsp;Aviv Segall,&thinsp;Olga Sorkine-Hornung">
+<link rel="canonical" href="https://segaviv.github.io/papers/smocking/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bcad36914eb9391dc949d7f192c7529bd7a2d829508814da9625acd3ba234952.css" integrity="sha256-vK02kU65OR3JSdfxksdSm9ei2ClQiBTaliWs07ojSVI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://segaviv.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://segaviv.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://segaviv.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://segaviv.github.io/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Digital 3D Smocking Design" />
+<meta property="og:description" content="The paper presents a method for digitally previewing a smocking pattern design by formulating smocking as a graph embedding and shape deformation problem." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://segaviv.github.io/papers/smocking/" />
+<meta property="og:image" content="https://segaviv.github.io/smocking.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2023-09-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-09-13T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://segaviv.github.io/smocking.png" />
+<meta name="twitter:title" content="Digital 3D Smocking Design"/>
+<meta name="twitter:description" content="The paper presents a method for digitally previewing a smocking pattern design by formulating smocking as a graph embedding and shape deformation problem."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Papers",
+      "item": "https://segaviv.github.io/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Digital 3D Smocking Design",
+      "item": "https://segaviv.github.io/papers/smocking/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Digital 3D Smocking Design",
+  "name": "Digital 3D Smocking Design",
+  "description": "The paper presents a method for digitally previewing a smocking pattern design by formulating smocking as a graph embedding and shape deformation problem.",
+  "keywords": [
+    "Smocking", "Embroidery", "Shape Deformation", "Graph Embedding"
+  ],
+  "articleBody": " Figure 1: Example of a smocking pattern, the fabricated result and our simulation. Abstract We develop an optimization-based method to model smocking, a surface embroidery technique that provides decorative geometric texturing while maintaining stretch properties of the fabric. During smocking, multiple pairs of points on the fabric are stitched together, creating non-manifold geomet- ric features and visually pleasing textures. Designing smocking patterns is challenging, because the outcome of stitching is unpredictable: the final tex- ture is often revealed only when the whole smocking process is completed, necessitating painstaking physical fabrication and time consuming trial-and- error experimentation. This motivates us to seek a digital smocking design method. Straightforward attempts to compute smocked fabric geometry us- ing surface deformation or cloth simulation methods fail to produce realistic results, likely due to the intricate structure of the designs, the large number of contacts and high-curvature folds. We instead formulate smocking as a graph embedding and shape deformation problem. We extract a coarse graph representing the fabric and the stitching constraints, and then derive the graph structure of the smocked result. We solve for the 3D embedding of this graph, which in turn reliably guides the deformation of the high-resolution fabric mesh. Our optimization based method is simple, efficient, and flexible, which allows us to build an interactive system for smocking pattern explo- ration. To demonstrate the accuracy of our method, we compare our results to real fabrications on a large set of smocking patterns.\nDownload Paper Code and data ",
+  "wordCount" : "246",
+  "inLanguage": "en",
+  "image":"https://segaviv.github.io/smocking.png","datePublished": "2023-09-13T00:00:00Z",
+  "dateModified": "2023-09-13T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Jing Ren"
+  }, {
+    "@type": "Person",
+    "name": "Aviv Segall"
+  }, {
+    "@type": "Person",
+    "name": "Olga Sorkine-Hornung"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://segaviv.github.io/papers/smocking/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aviv Segall",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://segaviv.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://segaviv.github.io/" accesskey="h" title="Aviv Segall">
+             
+                <img src="https://segaviv.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Aviv Segall</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://segaviv.github.io/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://segaviv.github.io/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Digital 3D Smocking Design
+    </h1>
+    <div class="post-meta"><span title='2023-09-13 00:00:00 +0000 UTC'>September 2023</span>&nbsp;&middot;&nbsp;Jing Ren,&thinsp;Aviv Segall,&thinsp;Olga Sorkine-Hornung
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h5 id="figure-1-example-of-a-smocking-pattern-the-fabricated-result-and-our-simulation">Figure 1: Example of a smocking pattern, the fabricated result and our simulation.</h5>
+<p><img loading="lazy" src="smocking.png" alt=""  />
+</p>
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>We develop an optimization-based method to model smocking, a surface embroidery technique that provides decorative geometric texturing while maintaining stretch properties of the fabric. During smocking, multiple pairs of points on the fabric are stitched together, creating non-manifold geomet- ric features and visually pleasing textures. Designing smocking patterns is challenging, because the outcome of stitching is unpredictable: the final tex- ture is often revealed only when the whole smocking process is completed, necessitating painstaking physical fabrication and time consuming trial-and- error experimentation. This motivates us to seek a digital smocking design method. Straightforward attempts to compute smocked fabric geometry us- ing surface deformation or cloth simulation methods fail to produce realistic results, likely due to the intricate structure of the designs, the large number of contacts and high-curvature folds. We instead formulate smocking as a graph embedding and shape deformation problem. We extract a coarse graph representing the fabric and the stitching constraints, and then derive the graph structure of the smocked result. We solve for the 3D embedding of this graph, which in turn reliably guides the deformation of the high-resolution fabric mesh. Our optimization based method is simple, efficient, and flexible, which allows us to build an interactive system for smocking pattern explo- ration. To demonstrate the accuracy of our method, we compare our results to real fabrications on a large set of smocking patterns.</p>
+<hr>
+<h5 id="download">Download</h5>
+<ul>
+<li><a href="smocking_paper.pdf">Paper</a>
+</li>
+<li><a href="https://github.com/llorz/SmockingDesign" target="_blank">Code and data</a>
+</li>
+</ul>
+<!-- ---
+
+##### Citation
+
+```BibTeX
+@inproceedings{segall2016iterative,
+  title={Iterative closest conformal maps between planar domains},
+  author={Segall, Aviv and Ben-Chen, Mirela},
+  booktitle={Computer Graphics Forum},
+  volume={35},
+  number={5},
+  pages={33--40},
+  year={2016},
+  organization={Wiley Online Library}
+}
+}
+``` -->
+<hr>
+<!-- ##### Related material
+
++ [Presentation slides](presentation2.pdf)
+ -->
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://segaviv.github.io/tags/smocking/">Smocking</a></li>
+      <li><a href="https://segaviv.github.io/tags/embroidery/">Embroidery</a></li>
+      <li><a href="https://segaviv.github.io/tags/shape-deformation/">Shape Deformation</a></li>
+      <li><a href="https://segaviv.github.io/tags/graph-embedding/">Graph Embedding</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>
