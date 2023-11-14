@@ -9,9 +9,9 @@ cover:
     image: "line_accessibility.png"
     alt: "Image caption"
     relative: false
-# editPost:
-#     URL: "https://doi.org/10.1257/aer.102.4.1721"
-#     Text: "Journal Name"
+editPost:
+    URL: "https://www.sciencedirect.com/journal/graphical-models"
+    Text: "Graphical Models"
 
 ---
 

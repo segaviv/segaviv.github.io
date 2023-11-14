@@ -23,7 +23,7 @@ params:
           My academic research interests include geometry processing, physics simulation and computer graphics."
     author: Aviv Segall
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "2006"
     defaultTheme: light
     hideFooter: true
     disableThemeToggle: true
