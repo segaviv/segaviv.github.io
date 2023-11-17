@@ -16,7 +16,7 @@ editPost:
 ---
 
 ---
-##### Figure 1: A typical setup of a Hele-Shaw experiment and our simulation results.
+##### 
 
 ![](hele_shaw.png)
 

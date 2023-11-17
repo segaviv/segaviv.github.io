@@ -18,7 +18,7 @@ editPost:
 
 ---
 
-##### Figure 1: Example of a smocking pattern, the fabricated result and our simulation.
+#####
 
 ![](smocking.png)
 
@@ -35,23 +35,25 @@ We develop an optimization-based method to model smocking, a surface embroidery 
 + [Paper](smocking_paper.pdf)
 + [Code and data](https://github.com/llorz/SmockingDesign)
 
-<!-- ---
+---
 
 ##### Citation
 
 ```BibTeX
-@inproceedings{segall2016iterative,
-  title={Iterative closest conformal maps between planar domains},
-  author={Segall, Aviv and Ben-Chen, Mirela},
-  booktitle={Computer Graphics Forum},
-  volume={35},
-  number={5},
-  pages={33--40},
-  year={2016},
-  organization={Wiley Online Library}
+@article{10.1145/3631945,
+author = {Ren, Jing and Segall, Aviv and Sorkine-Hornung, Olga},
+title = {Digital 3D Smocking Design},
+year = {2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3631945},
+doi = {10.1145/3631945},
+journal = {ACM Trans. Graph.},
+month = {nov},
+keywords = {Embroidery, Smocking, Graph Embedding, Shape Deformation}
 }
-}
-``` -->
+```
 
 ---
 

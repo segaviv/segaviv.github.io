@@ -70,8 +70,8 @@
   "keywords": [
     "Smocking", "Embroidery", "Shape Deformation", "Graph Embedding"
   ],
-  "articleBody": " Figure 1: Example of a smocking pattern, the fabricated result and our simulation. Abstract We develop an optimization-based method to model smocking, a surface embroidery technique that provides decorative geometric texturing while maintaining stretch properties of the fabric. During smocking, multiple pairs of points on the fabric are stitched together, creating non-manifold geomet- ric features and visually pleasing textures. Designing smocking patterns is challenging, because the outcome of stitching is unpredictable: the final tex- ture is often revealed only when the whole smocking process is completed, necessitating painstaking physical fabrication and time consuming trial-and- error experimentation. This motivates us to seek a digital smocking design method. Straightforward attempts to compute smocked fabric geometry us- ing surface deformation or cloth simulation methods fail to produce realistic results, likely due to the intricate structure of the designs, the large number of contacts and high-curvature folds. We instead formulate smocking as a graph embedding and shape deformation problem. We extract a coarse graph representing the fabric and the stitching constraints, and then derive the graph structure of the smocked result. We solve for the 3D embedding of this graph, which in turn reliably guides the deformation of the high-resolution fabric mesh. Our optimization based method is simple, efficient, and flexible, which allows us to build an interactive system for smocking pattern explo- ration. To demonstrate the accuracy of our method, we compare our results to real fabrications on a large set of smocking patterns.\nDownload Paper Code and data ",
-  "wordCount" : "246",
+  "articleBody": " Abstract We develop an optimization-based method to model smocking, a surface embroidery technique that provides decorative geometric texturing while maintaining stretch properties of the fabric. During smocking, multiple pairs of points on the fabric are stitched together, creating non-manifold geomet- ric features and visually pleasing textures. Designing smocking patterns is challenging, because the outcome of stitching is unpredictable: the final tex- ture is often revealed only when the whole smocking process is completed, necessitating painstaking physical fabrication and time consuming trial-and- error experimentation. This motivates us to seek a digital smocking design method. Straightforward attempts to compute smocked fabric geometry us- ing surface deformation or cloth simulation methods fail to produce realistic results, likely due to the intricate structure of the designs, the large number of contacts and high-curvature folds. We instead formulate smocking as a graph embedding and shape deformation problem. We extract a coarse graph representing the fabric and the stitching constraints, and then derive the graph structure of the smocked result. We solve for the 3D embedding of this graph, which in turn reliably guides the deformation of the high-resolution fabric mesh. Our optimization based method is simple, efficient, and flexible, which allows us to build an interactive system for smocking pattern explo- ration. To demonstrate the accuracy of our method, we compare our results to real fabrications on a large set of smocking patterns.\nDownload Paper Code and data Citation @article{10.1145/3631945, author = {Ren, Jing and Segall, Aviv and Sorkine-Hornung, Olga}, title = {Digital 3D Smocking Design}, year = {2023}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, issn = {0730-0301}, url = {https://doi.org/10.1145/3631945}, doi = {10.1145/3631945}, journal = {ACM Trans. Graph.}, month = {nov}, keywords = {Embroidery, Smocking, Graph Embedding, Shape Deformation} } ",
+  "wordCount" : "292",
   "inLanguage": "en",
   "image":"https://segaviv.github.io/smocking.png","datePublished": "2023-09-13T00:00:00Z",
   "dateModified": "2023-09-13T00:00:00Z",
@@ -172,7 +172,7 @@
 </div>
   </header> 
   <div class="post-content"><hr>
-<h5 id="figure-1-example-of-a-smocking-pattern-the-fabricated-result-and-our-simulation">Figure 1: Example of a smocking pattern, the fabricated result and our simulation.</h5>
+<h5 id="heading"></h5>
 <p><img loading="lazy" src="smocking.png" alt=""  />
 </p>
 <hr>
@@ -186,24 +186,22 @@
 <li><a href="https://github.com/llorz/SmockingDesign" target="_blank">Code and data</a>
 </li>
 </ul>
-<!-- ---
-
-##### Citation
-
-```BibTeX
-@inproceedings{segall2016iterative,
-  title={Iterative closest conformal maps between planar domains},
-  author={Segall, Aviv and Ben-Chen, Mirela},
-  booktitle={Computer Graphics Forum},
-  volume={35},
-  number={5},
-  pages={33--40},
-  year={2016},
-  organization={Wiley Online Library}
-}
-}
-``` -->
 <hr>
+<h5 id="citation">Citation</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@article</span>{10.1145/3631945,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">author</span> = <span style="color:#a50">{Ren, Jing and Segall, Aviv and Sorkine-Hornung, Olga}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">title</span> = <span style="color:#a50">{Digital 3D Smocking Design}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">year</span> = <span style="color:#a50">{2023}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">publisher</span> = <span style="color:#a50">{Association for Computing Machinery}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">address</span> = <span style="color:#a50">{New York, NY, USA}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">issn</span> = <span style="color:#a50">{0730-0301}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">url</span> = <span style="color:#a50">{https://doi.org/10.1145/3631945}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">doi</span> = <span style="color:#a50">{10.1145/3631945}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">journal</span> = <span style="color:#a50">{ACM Trans. Graph.}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">month</span> = <span style="color:#a50">{nov}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">keywords</span> = <span style="color:#a50">{Embroidery, Smocking, Graph Embedding, Shape Deformation}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
 <!-- ##### Related material
 
 + [Presentation slides](presentation2.pdf)

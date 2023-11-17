@@ -17,7 +17,7 @@ editPost:
 
 ---
 
-##### Figure 1: Mapping boundary-to-boundary (left) and stroke-to-stroke (right) compared to the traditional point-to-point constraints.
+#####
 
 ![](iccm.png)
 

@@ -57,6 +57,8 @@ params:
           buttons:
             - name: Papers
               url: papers/
+            - name: tags
+              url: tags/
             - name: Contact
               url: contact/
     socialIcons:
