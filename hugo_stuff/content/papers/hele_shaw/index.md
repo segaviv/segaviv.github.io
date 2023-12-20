@@ -32,7 +32,7 @@ Hele-Shaw flow describes the slow flow of a viscous liquid between two parallel 
 ##### Download
 
 + [Paper](hele_shaw_simulation.pdf)
-<!-- + [Code and data](TODO) -->
++ [Code](hele_shaw_sim.zip)
 
 ---
 
