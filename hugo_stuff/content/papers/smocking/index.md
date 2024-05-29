@@ -33,6 +33,7 @@ We develop an optimization-based method to model smocking, a surface embroidery 
 ##### Download
 
 + [Paper](smocking_paper.pdf)
++ [Video](https://www.youtube.com/watch?v=GNWhDYsAXiM)
 + [Code and data](https://github.com/llorz/SmockingDesign)
 
 ---

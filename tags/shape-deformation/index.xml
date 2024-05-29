@@ -6,7 +6,16 @@
     <description>Recent content in Shape Deformation on Aviv Segall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/shape-deformation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/shape-deformation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fabric Tessellation: Realizing Freeform Surfaces by Smocking</title>
+      <link>https://segaviv.github.io/papers/3d_smocking/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/3d_smocking/</guid>
+      <description>The paper introduces a method for utilizing an embroidery technique called smocking to realize freeform surfaces from a flat piece of fabric. By combining directional field computation and continuous planar graph optimization, our algorithm outputs a stitching pattern that generates an approximation of the target shape upon stitching.</description>
+    </item>
+    
     <item>
       <title>Digital 3D Smocking Design</title>
       <link>https://segaviv.github.io/papers/smocking/</link>
