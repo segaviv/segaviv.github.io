@@ -6,7 +6,25 @@
     <description>Recent content in Papers on Aviv Segall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computational Modeling of Gothic Microarchitecture</title>
+      <link>https://segaviv.github.io/papers/gothic_microarchitecture/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/gothic_microarchitecture/</guid>
+      <description>This work presents a simple yet powerful geometric framework to reconstruct complex 3D Gothic microarchitecture structures from 2D historical top-view drawings. The framework also provides a design space for such structures via an interactive UI.</description>
+    </item>
+    
+    <item>
+      <title>Chebyshev Parameterization for Woven Fabric Modeling</title>
+      <link>https://segaviv.github.io/papers/chebyshev_net/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/chebyshev_net/</guid>
+      <description>The paper proposes a new surface parameterization method that models woven fabrics more accurately by using Chebyshev-net-based distortion energy, which accounts for anisotropic stretch and shear.</description>
+    </item>
+    
     <item>
       <title>Fabric Tessellation: Realizing Freeform Surfaces by Smocking</title>
       <link>https://segaviv.github.io/papers/3d_smocking/</link>

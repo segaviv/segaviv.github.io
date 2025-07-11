@@ -1,6 +1,6 @@
 baseURL: "https://segaviv.github.io/" 
 title: Aviv Segall
-paginate: 20
+paginate.pagerSize: 20
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -41,6 +41,7 @@ params:
     ShowWordCount: false
     UseHugoToc: true
     comments: false
+    social: true
     math: true
     profileMode:
           enabled: true

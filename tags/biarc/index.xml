@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Biarc on Aviv Segall</title>
+    <link>https://segaviv.github.io/tags/biarc/</link>
+    <description>Recent content in Biarc on Aviv Segall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/biarc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computational Modeling of Gothic Microarchitecture</title>
+      <link>https://segaviv.github.io/papers/gothic_microarchitecture/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/gothic_microarchitecture/</guid>
+      <description>This work presents a simple yet powerful geometric framework to reconstruct complex 3D Gothic microarchitecture structures from 2D historical top-view drawings. The framework also provides a design space for such structures via an interactive UI.</description>
+    </item>
+    
+  </channel>
+</rss>
