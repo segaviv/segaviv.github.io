@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kirigami on Aviv Segall</title>
+    <link>https://segaviv.github.io/tags/kirigami/</link>
+    <description>Recent content in Kirigami on Aviv Segall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/kirigami/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconfigurable Hinged Kirigami Tessellations</title>
+      <link>https://segaviv.github.io/papers/hinged_kirigami/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/hinged_kirigami/</guid>
+      <description>The paper presents a computational framework for designing hinged kirigami patterns that can be optimized to approximate a target 3D surface upon deployment.</description>
+    </item>
+    
+  </channel>
+</rss>

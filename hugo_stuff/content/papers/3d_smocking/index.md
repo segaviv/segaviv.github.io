@@ -1,7 +1,7 @@
 ---
 title: "Fabric Tessellation: Realizing Freeform Surfaces by Smocking" 
 date: 2024-05-13
-tags: ["Smocking", "Embroidery", "Shape Deformation", "Graph Embedding"]
+tags: ["Smocking", "Embroidery", "Shape Deformation", "Graph Embedding", "Tessellation", "Inverse design"]
 author: ["Aviv Segall", "Jing Ren", "Amir Vaxman", "Olga Sorkine-Hornung"]
 description: "" 
 summary: "The paper introduces a method for utilizing an embroidery technique called smocking to realize freeform surfaces from a flat piece of fabric. By combining directional field computation and continuous planar graph optimization, our algorithm outputs a stitching pattern that generates an approximation of the target shape upon stitching.

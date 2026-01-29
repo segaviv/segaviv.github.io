@@ -6,7 +6,16 @@
     <description>Recent content in Papers on Aviv Segall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconfigurable Hinged Kirigami Tessellations</title>
+      <link>https://segaviv.github.io/papers/hinged_kirigami/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/hinged_kirigami/</guid>
+      <description>The paper presents a computational framework for designing hinged kirigami patterns that can be optimized to approximate a target 3D surface upon deployment.</description>
+    </item>
+    
     <item>
       <title>Computational Modeling of Gothic Microarchitecture</title>
       <link>https://segaviv.github.io/papers/gothic_microarchitecture/</link>

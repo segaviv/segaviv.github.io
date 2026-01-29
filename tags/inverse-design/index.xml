@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Inverse Design on Aviv Segall</title>
+    <link>https://segaviv.github.io/tags/inverse-design/</link>
+    <description>Recent content in Inverse Design on Aviv Segall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/inverse-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconfigurable Hinged Kirigami Tessellations</title>
+      <link>https://segaviv.github.io/papers/hinged_kirigami/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/hinged_kirigami/</guid>
+      <description>The paper presents a computational framework for designing hinged kirigami patterns that can be optimized to approximate a target 3D surface upon deployment.</description>
+    </item>
+    
+    <item>
+      <title>Fabric Tessellation: Realizing Freeform Surfaces by Smocking</title>
+      <link>https://segaviv.github.io/papers/3d_smocking/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/3d_smocking/</guid>
+      <description>The paper introduces a method for utilizing an embroidery technique called smocking to realize freeform surfaces from a flat piece of fabric. By combining directional field computation and continuous planar graph optimization, our algorithm outputs a stitching pattern that generates an approximation of the target shape upon stitching.</description>
+    </item>
+    
+  </channel>
+</rss>
