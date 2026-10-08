@@ -2,8 +2,8 @@
 {{- $author := (.Params.author | default site.Params.author) }}
 {{- $author_type := (printf "%T" $author) }}
 {{- if (or (eq $author_type "[]string") (eq $author_type "[]interface {}")) }}
-{{- (delimit $author ",&thinsp;" | safeHTML ) }}
+{{- (replace (delimit $author ",&thinsp;") "Aviv Segall" "<strong>Aviv Segall</strong>" | safeHTML ) }}
 {{- else }}
-{{- $author }}
+{{- (replace $author "Aviv Segall" "<strong>Aviv Segall</strong>" | safeHTML) }}
 {{- end }}
 {{- end -}}

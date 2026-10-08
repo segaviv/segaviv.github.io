@@ -6,7 +6,25 @@
     <description>Recent content in Inverse Design on Aviv Segall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/inverse-design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/inverse-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fabricating 3D Shapes by Shrinking-Thread Embroidery</title>
+      <link>https://segaviv.github.io/papers/shrink_thread/</link>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/shrink_thread/</guid>
+      <description>The paper presents a method that takes a target 3D shape and generates a flat embroidery stitching pattern with heat-shrinkable polyester threads. When heated, the threads shrink and the fabric contracts into the target 3D shape.</description>
+    </item>
+    
+    <item>
+      <title>Uniformly Deployable Kirigami on Arbitrary Planar Graphs</title>
+      <link>https://segaviv.github.io/papers/uniformly_deployable_kirigami/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/papers/uniformly_deployable_kirigami/</guid>
+      <description>The paper presents a framework for exploring the space of uniformly deployable hinged kirigami structures, as a constrained embedding space of an arbitrary planar graph. The design space can be used for desired deployment properties, such as conformal behavior and fully-closed deployed configuration, and for inverse design.</description>
+    </item>
+    
     <item>
       <title>Reconfigurable Hinged Kirigami Tessellations</title>
       <link>https://segaviv.github.io/papers/hinged_kirigami/</link>

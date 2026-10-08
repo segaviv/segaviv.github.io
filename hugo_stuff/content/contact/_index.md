@@ -6,7 +6,7 @@ description: "Mailing and office addresses at the University of Place."
 ---
 
 #### Email address
-aviv.segall@inf.ethz.ch
+aviv.segall@inf.ethz.ch, avivsegall@gmail.com
 
 #### Office address
 

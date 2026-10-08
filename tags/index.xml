@@ -6,20 +6,47 @@
     <description>Recent content in Tags on Aviv Segall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://segaviv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embroidery</title>
+      <link>https://segaviv.github.io/tags/embroidery/</link>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/tags/embroidery/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Inverse Design</title>
       <link>https://segaviv.github.io/tags/inverse-design/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       
       <guid>https://segaviv.github.io/tags/inverse-design/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Shrinking Thread</title>
+      <link>https://segaviv.github.io/tags/shrinking-thread/</link>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/tags/shrinking-thread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Embedding</title>
+      <link>https://segaviv.github.io/tags/graph-embedding/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/tags/graph-embedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kirigami</title>
       <link>https://segaviv.github.io/tags/kirigami/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
       
       <guid>https://segaviv.github.io/tags/kirigami/</guid>
       <description></description>
@@ -28,9 +55,27 @@
     <item>
       <title>Tessellation</title>
       <link>https://segaviv.github.io/tags/tessellation/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
       
       <guid>https://segaviv.github.io/tags/tessellation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Low Poly</title>
+      <link>https://segaviv.github.io/tags/low-poly/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/tags/low-poly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Score Distillation Sampling</title>
+      <link>https://segaviv.github.io/tags/score-distillation-sampling/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://segaviv.github.io/tags/score-distillation-sampling/</guid>
       <description></description>
     </item>
     
@@ -85,24 +130,6 @@
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://segaviv.github.io/tags/shape-deformation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Embroidery</title>
-      <link>https://segaviv.github.io/tags/embroidery/</link>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://segaviv.github.io/tags/embroidery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph Embedding</title>
-      <link>https://segaviv.github.io/tags/graph-embedding/</link>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://segaviv.github.io/tags/graph-embedding/</guid>
       <description></description>
     </item>
     
