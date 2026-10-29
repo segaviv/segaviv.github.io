@@ -55,6 +55,9 @@ params:
           imageWidth: 160
           imageHeight: 160
           imageTitle: Aviv Segall
+          # Scene paths are relative to static/. Remove sceneUrl to use only the photo.
+          sceneUrl: "profile.json"
+          sceneTitle: "Interactive 3D profile scene"
           buttons:
             - name: Papers
               url: papers/

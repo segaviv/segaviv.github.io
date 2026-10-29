@@ -37,6 +37,28 @@ The website produced by the template can be viewed at https://pascalmichaillat.o
 
 ## Usage
 
+### Interactive profile scene
+
+The homepage embeds the Cochon WebGPU renderer in the circular profile photo area.
+Its six runtime modules are copied from `cochon_splatting/webgpu` into
+`static/cochon-webgpu/`, with their relative imports preserved.
+
+Replace `static/cochon-webgpu/scene.json` with your exported Cochon scene JSON
+(`cochon-splatting`, version 1, `pig-v1`). The checked-in scene is currently the
+renderer’s sample pig, pending the intended profile scene. Alternatively, change
+`params.profileMode.sceneUrl` in `config.yml` to another path relative to `static/`.
+The saved scene controls the initial camera, background, and rendering kernel.
+`imageWidth` and `imageHeight` still control the display size.
+
+Drag to orbit, scroll or use +/− to zoom, and double-click or press R to reset.
+The canvas is keyboard focusable; arrow keys pan. The renderer draws on demand.
+The original `imageUrl` photo remains visible until the first frame completes,
+and is restored if loading or rendering fails. Visitors without JavaScript or
+WebGPU see the photo. Remove `sceneUrl` to restore the photo-only homepage.
+
+Preview with `hugo server` on localhost; production requires HTTPS. No additional
+build dependencies or external renderer services are needed.
+
 ### Development
 
 Navigate to the website directory and run `hugo server` in the terminal. The command builds the website on your machine and makes it available at http://localhost:1313. You can modify the content of the repository and develop your website entirely on your local machine.

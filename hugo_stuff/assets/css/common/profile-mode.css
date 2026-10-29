@@ -22,6 +22,60 @@
     border-radius: 50%;
 }
 
+.profile-scene {
+    position: relative;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.profile-scene img,
+.profile-scene-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.profile-scene img {
+    object-fit: cover;
+}
+
+.profile-scene-canvas {
+    position: absolute;
+    inset: 0;
+    /* Keep its size measurable while the first frame renders behind the photo. */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.profile-scene.is-ready .profile-scene-canvas {
+    opacity: 1;
+    pointer-events: auto;
+    cursor: grab;
+}
+
+.profile-scene.is-ready .profile-scene-canvas:active {
+    cursor: grabbing;
+}
+
+.profile-scene.is-ready img {
+    visibility: hidden;
+}
+
+.profile-scene-canvas:focus-visible {
+    outline: 3px solid var(--darkpurple);
+    outline-offset: 4px;
+}
+
+.profile-scene-help {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
 .buttons {
     flex-wrap: wrap;
     margin: 0 auto;
