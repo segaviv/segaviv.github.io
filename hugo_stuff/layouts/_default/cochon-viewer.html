@@ -1,0 +1,45 @@
+{{ define "main" }}
+<article class="cochon-page">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="cochon-intro">{{ .Content }}</div>
+    </header>
+
+    <section class="cochon-viewer" aria-label="Cochon scene viewer">
+        <div class="cochon-toolbar">
+            <div class="cochon-examples">
+                <label for="cochon-example">Example scene</label>
+                <select id="cochon-example" disabled>
+                    <option value="">Choose an example…</option>
+                    {{ range .Params.examples }}
+                    {{ $available := fileExists (printf "static/%s" .path) }}
+                    <option value="{{ .path | relURL }}" {{ if not $available }}disabled{{ end }}>{{ .name }}{{ if not $available }} — coming soon{{ end }}</option>
+                    {{ end }}
+                </select>
+            </div>
+            <span class="cochon-or">or</span>
+            <button id="cochon-upload" type="button" disabled>Open JSON scene</button>
+            <input id="cochon-file" type="file" accept=".json,application/json" hidden>
+        </div>
+
+        <div class="cochon-stage" aria-busy="true">
+            <canvas id="cochon-canvas" tabindex="0" aria-label="Interactive Cochon splat scene" aria-describedby="cochon-help"></canvas>
+            <div class="cochon-placeholder" id="cochon-placeholder">
+                <strong>Your herd, in 3D</strong>
+                <span>Choose an example or open a JSON scene to begin.</span>
+            </div>
+        </div>
+        <div class="cochon-scene-bar">
+            <span id="cochon-scene-name">No scene loaded</span>
+            <button id="cochon-reset" type="button" disabled>Reset view</button>
+        </div>
+        <p id="cochon-status" class="cochon-status" role="status" aria-live="polite">Preparing the viewer…</p>
+        <p id="cochon-stats" class="cochon-stats"></p>
+    </section>
+
+    <p id="cochon-help" class="cochon-help">Drag to orbit · Shift-drag to pan · Scroll or pinch to zoom.<br>With the viewer focused: arrow keys to pan, + / − to zoom, R to reset.</p>
+    <p class="cochon-note">JSON files stay in your browser. Requires WebGPU. On touch screens, use two fingers to pan and pinch.</p>
+    <noscript><p>Enable JavaScript to load and explore Cochon scenes.</p></noscript>
+</article>
+<script type="module" src="{{ "js/cochon-viewer.js" | relURL }}"></script>
+{{ end }}

@@ -59,6 +59,22 @@ WebGPU see the photo. Remove `sceneUrl` to restore the photo-only homepage.
 Preview with `hugo server` on localhost; production requires HTTPS. No additional
 build dependencies or external renderer services are needed.
 
+### Cochon scene viewer
+
+The `/cochon-viewer/` page uses the same `CochonViewer` renderer for local JSON
+files and built-in examples. Local files are read in the browser, without upload.
+The viewer preserves each scene's saved camera, background, and rendering kernel.
+
+Add example scenes to `static/cochon-scenes/herd-1.json`, `herd-2.json`, and
+`herd-3.json`. Their picker entries become enabled on the next Hugo build; absent
+files appear as “coming soon.” Rename, add, or remove entries in the `examples`
+front matter of `content/cochon-viewer.md`. Paths are relative to `static/`.
+The existing `cochon-webgpu/scene.json` sample is available immediately.
+
+Scenes must use the renderer's `cochon-splatting` version 1, `pig-v1` format.
+The renderer validates scenes and applies its existing file-size and GPU limits.
+WebGPU requires a supported browser on HTTPS or localhost.
+
 ### Development
 
 Navigate to the website directory and run `hugo server` in the terminal. The command builds the website on your machine and makes it available at http://localhost:1313. You can modify the content of the repository and develop your website entirely on your local machine.

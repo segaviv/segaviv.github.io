@@ -1,0 +1,36 @@
+.cochon-page .post-header { margin-bottom: 24px; }
+.cochon-intro { color: var(--secondary); font-size: 16px; margin-top: 10px; }
+.cochon-viewer { border: 1px solid var(--tertiary); border-radius: 12px; overflow: hidden; background: var(--entry); }
+.cochon-toolbar { display: flex; align-items: end; gap: 14px; padding: 20px; }
+.cochon-examples { flex: 1; min-width: 0; }
+.cochon-examples label { display: block; font-size: 13px; font-weight: 500; margin-bottom: 6px; }
+.cochon-viewer select, .cochon-viewer button { font: inherit; font-size: 14px; min-height: 42px; border: 1px solid var(--tertiary); border-radius: 7px; padding: 8px 12px; color: var(--primary); background: var(--theme); }
+.cochon-viewer select { width: 100%; }
+.cochon-viewer button { cursor: pointer; }
+.cochon-viewer #cochon-upload { background: var(--lightpurple); border-color: var(--midpurple); }
+.cochon-viewer button:hover:not(:disabled) { border-color: var(--darkpurple); }
+.cochon-viewer :disabled { opacity: .55; cursor: not-allowed; }
+.cochon-viewer :focus-visible { outline: 3px solid var(--darkpurple); outline-offset: 3px; }
+.cochon-or { font-size: 13px; color: var(--secondary); padding-bottom: 11px; }
+.cochon-stage { position: relative; height: clamp(300px, 55vw, 520px); background: #f5f3fa; border-block: 1px solid var(--border); }
+#cochon-canvas { display: block; width: 100%; height: 100%; outline-offset: -4px; }
+.cochon-placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px; padding: 24px; text-align: center; pointer-events: none; }
+.cochon-placeholder[hidden] { display: none; }
+.cochon-placeholder strong { font-size: 21px; font-weight: 500; }
+.cochon-placeholder span { font-size: 14px; color: var(--secondary); max-width: 280px; }
+.cochon-scene-bar { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 20px 0; font-size: 14px; }
+#cochon-scene-name { overflow-wrap: anywhere; min-width: 0; }
+#cochon-reset { flex-shrink: 0; min-height: 36px; font-size: 13px; }
+.cochon-status { padding: 12px 20px 16px; color: var(--secondary); font-size: 14px; overflow-wrap: anywhere; }
+.cochon-status[data-error="true"] { color: #a12c42; }
+.cochon-stats { padding: 0 20px 16px; color: var(--secondary); font-size: 12px; }
+.cochon-stats:empty { display: none; }
+.cochon-help { margin-top: 20px; font-size: 14px; line-height: 1.8; }
+.cochon-note { margin-top: 10px; font-size: 12px; color: var(--secondary); }
+@media (max-width: 520px) {
+    .cochon-toolbar { flex-wrap: wrap; padding: 16px; gap: 10px; }
+    .cochon-examples { flex-basis: 100%; }
+    .cochon-or { display: none; }
+    #cochon-upload { width: 100%; }
+    .cochon-scene-bar { padding-inline: 16px; }
+}
